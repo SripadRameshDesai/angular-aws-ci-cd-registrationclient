@@ -8,8 +8,8 @@ export class UserRegistationService {
 
   //ROOT_URL:String="http://jtechie.us-east-1.elasticbeanstalk.com";
 
-  ROOT_URL:String="Sbawsregserver-env.eba-awr9vif3.us-east-1.elasticbeanstalk.com";
-  
+  ROOT_URL:String="http://Sbawsregserver-env.eba-awr9vif3.us-east-1.elasticbeanstalk.com";
+
   constructor(private http:HttpClient) { }
 
 
