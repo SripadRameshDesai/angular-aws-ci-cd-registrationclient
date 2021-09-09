@@ -8,12 +8,14 @@ import { SerachDeleteComponent } from './serach-delete/serach-delete.component';
 import { UserRegistationService } from './user-registation.service';
 import { HttpClientModule } from '@angular/common/http';
 import { FormsModule } from '@angular/forms';
+import { HomeComponent } from './home/home.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     RegistrationComponent,
-    SerachDeleteComponent
+    SerachDeleteComponent,
+    HomeComponent
   ],
   imports: [
     BrowserModule,
